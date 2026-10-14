@@ -53,7 +53,7 @@ python3 -m unittest test_phantom_lint.py -v
   Description : Bidirectional control character U+202E (RIGHT-TO-LEFT OVERRIDE) detected.
 
 [HIGH] THREAT-03 (MIXED_SCRIPT_HOMOGRAPH) at src/network.py:8:8
-  Description : Token 'reqуests' mixes scripts: CYRILLIC, LATIN.
+  Description : Token 'requests' mixes scripts: CYRILLIC, LATIN.
 
 Scan complete. Findings: 3 across 2 file(s).
 ```
