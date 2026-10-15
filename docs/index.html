@@ -410,11 +410,18 @@
       };
 
       var ZERO_WIDTH_CODEPOINTS = {
+        0x034F: "COMBINING GRAPHEME JOINER",
         0x200B: "ZERO WIDTH SPACE",
         0x200C: "ZERO WIDTH NON-JOINER",
         0x200D: "ZERO WIDTH JOINER",
         0x2060: "WORD JOINER",
-        0xFEFF: "ZERO WIDTH NO-BREAK SPACE"
+        0x2061: "FUNCTION APPLICATION",
+        0x2062: "INVISIBLE TIMES",
+        0x2063: "INVISIBLE SEPARATOR",
+        0x2064: "INVISIBLE PLUS",
+        0x3164: "HANGUL FILLER",
+        0xFEFF: "ZERO WIDTH NO-BREAK SPACE",
+        0xFFA0: "HALFWIDTH HANGUL FILLER"
       };
 
       var currentReportMode = "cards";
